@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elm Stopwatch</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: 'Calibri', 'Trebuchet', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <main></main>
+  <script src="elm.js"></script>
+  <script type="text/javascript">
+    const app = Elm.Main.init({
+      node: document.querySelector('main'),
+    });
+  </script>
+</body>
+
+</html>
